@@ -4,11 +4,12 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const navigation = [
-  { name: 'O nas', href: '#o-nas' },
-  { name: 'Uslugi', href: '#uslugi' },
-  { name: 'Oferty', href: '#oferty' },
-  { name: 'Kalkulator', href: '#kalkulator' },
-  { name: 'Kontakt', href: '#kontakt' },
+  { name: 'O nas', href: '/#o-nas' },
+  { name: 'Uslugi', href: '/#uslugi' },
+  { name: 'Oferty', href: '/#oferty' },
+  { name: 'Kalkulator', href: '/#kalkulator' },
+  { name: 'Aktualnosci', href: '/blog' },
+  { name: 'Kontakt', href: '/#kontakt' },
 ];
 
 export default function Header() {
@@ -43,7 +44,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="#kontakt"
+              href="/#kontakt"
               className="rounded-lg px-4 py-2 text-sm font-semibold text-white transition-all hover:opacity-90"
               style={{ backgroundColor: 'var(--broi-gold)' }}
             >
@@ -88,7 +89,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="#kontakt"
+                href="/#kontakt"
                 className="rounded-lg px-4 py-2 text-center text-sm font-semibold text-white"
                 style={{ backgroundColor: 'var(--broi-gold)' }}
                 onClick={() => setMobileMenuOpen(false)}
