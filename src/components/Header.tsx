@@ -7,6 +7,7 @@ const navigation = [
   { name: 'O nas', href: '#o-nas' },
   { name: 'Uslugi', href: '#uslugi' },
   { name: 'Oferty', href: '#oferty' },
+  { name: 'Kalkulator', href: '#kalkulator' },
   { name: 'Kontakt', href: '#kontakt' },
 ];
 
